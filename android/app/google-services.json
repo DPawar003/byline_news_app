@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "975411266137",
+    "project_id": "news-reader-app-fa3e4",
+    "storage_bucket": "news-reader-app-fa3e4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975411266137:android:a856738c6198a52889e748",
+        "android_client_info": {
+          "package_name": "com.example.news_reader_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCshpWgrDnnSYRrLyrcU8yyscxQXZS8mOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975411266137:android:4db009abcb5fd27989e748",
+        "android_client_info": {
+          "package_name": "com.example.newsreader.news_reader_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCshpWgrDnnSYRrLyrcU8yyscxQXZS8mOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
