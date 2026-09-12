@@ -71,19 +71,34 @@ lib/
 
 ---
 
-## APK
+## 📥 Download & Install APK
 
-| App | File | Size | Path |
-|---|---|---|---|
-| Byline | `app-release.apk` | ~20 MB | `build/app/outputs/flutter-apk/` |
+Pre-compiled release APKs are available directly in the [`releases/`](releases/) directory:
 
-Build it yourself:
+| Targeted Device / Architecture                  | APK File Name                         | Size            | Direct Download Link                                         |
+| :---------------------------------------------- | :------------------------------------ | :-------------- | :----------------------------------------------------------- |
+| 📱 ****Android ARM64**** **(Optimized & Fast)** | `Byline-Realme-arm64-v8a-release.apk` | ****21.0 MB**** | [Download APK](releases/Byline.apk) |
 
+**### 🚀 How to Install on your Android Phone:**
+
+1. Download [`Byline-Realme-arm64-v8a-release.apk`](releases/Byline.apk) onto your phone.
+
+2. Open the downloaded APK and tap ****Install****. If prompted, allow ****Install from unknown sources**** for your browser or file manager.
+
+3. Open ****Byline**** and register with a test account.
+
+
+
+### ⚙️ Build Command from Source:
 ```bash
-flutter build apk
+# Build optimized ARM64 release APK for Realme devices
+flutter build apk --release --split-per-abi
+
+# Or build universal release APK
+flutter build apk --release
 ```
 
-Minimum supported: Android 5.0 (API 21).
+**Minimum Android Version**: Android 5.0 (API level 21).
 
 ---
 
